@@ -37,9 +37,15 @@ Remote Angel operates in two modes:
 | Page Down | Scroll chat history down |
 | Delete | Cancel current analysis |
 | Home | Show/Hide chat history |
+| Insert | Toggle window position (left/right) |
 | End | Toggle Meeting Mode |
 
 ## Features
+
+### Window Management
+- Window size is automatically set to 1/2 of screen width
+- Press Insert key to toggle window position between left and right half of screen
+- Window remains on top of other applications for easy access
 
 ### Screenshot Analysis
 1. Press F1 to capture the current screen

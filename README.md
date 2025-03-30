@@ -1,6 +1,6 @@
 # Remote Angel - User Guide
 
-Remote Angel is an AI-powered screen capture and audio analysis tool that helps you analyze content from your screen and voice input in real-time. This guide will help you get started with using Remote Angel effectively.
+Remote Angel (http://remoteangel.xyz/) is an AI-powered screen capture and audio analysis tool that helps you analyze content from your screen and voice input in real-time. This guide will help you get started with using Remote Angel effectively.
 
 ## Getting Started
 

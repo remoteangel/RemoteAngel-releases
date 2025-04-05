@@ -8,7 +8,7 @@ RemoteAngel (http://remoteangel.xyz/) is your invisible AI assistant for coding 
    - Install RemoteAngel
    - Open the app (it starts invisible by default)
    - Press `Ctrl+B` (or `⌘+B` on Mac) to make the window visible
-   - Click Settings and enter your OpenAI API key
+   - Click Settings and enter your license key obtained from http://remoteangel.xyz/ and your OpenAI API key
    - Select your preferred AI models for each stage
 
 2. **Basic Controls**

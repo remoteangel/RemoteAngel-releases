@@ -1,118 +1,130 @@
-# Remote Angel - User Guide
+# RemoteAngel User Guide
 
-Remote Angel (http://remoteangel.xyz/) is an AI-powered screen capture and audio analysis tool that helps you analyze content from your screen and voice input in real-time. This guide will help you get started with using Remote Angel effectively.
+RemoteAngel (http://remoteangel.xyz/) is your invisible AI assistant for coding interviews and technical presentations. This guide will help you get started and make the most of its features.
 
-## Getting Started
+## Quick Start
 
-1. Launch Remote Angel from your desktop or start menu
-2. The application will start in setup mode, allowing you to configure your preferences
-3. Click the settings gear icon (⚙️) in the title bar to configure your API keys and other settings
-4. Select your preferred monitor and microphone using the 📺 and 🎤 buttons in the title bar
-5. Choose your preferred AI model from the dropdown menu
+1. **Initial Setup**
+   - Install RemoteAngel
+   - Open the app (it starts invisible by default)
+   - Press `Ctrl+B` (or `⌘+B` on Mac) to make the window visible
+   - Click Settings and enter your OpenAI API key
+   - Select your preferred AI models for each stage
 
-## Basic Usage
+2. **Basic Controls**
+   - `Ctrl/⌘ + B`: Toggle window visibility
+   - `Ctrl/⌘ + Arrow Keys`: Move window around
+   - `Ctrl/⌘ + [/]`: Adjust window opacity
+   - `Ctrl/⌘ + Q`: Quit application
 
-Remote Angel operates in two modes:
+## Core Features
 
-### Setup Mode
-- Use this mode to configure your preferences
-- Access all controls and settings
-- Click the ▶️ button or press End key to enter Meeting Mode
+### 1. Screenshot Analysis
+- Press `Ctrl/⌘ + H` to take a screenshot
+- Capture both the problem description and your code
+- Press `Ctrl/⌘ + Enter` to process screenshots
+- Press `Ctrl/⌘ + L` to delete the last screenshot if needed
 
-### Meeting Mode
-- Window becomes non-interactive to avoid interference with other applications
-- Use hotkeys for all operations
-- Press End key to exit Meeting Mode
+### 2. Window Management
+- **Visibility**: Toggle with `Ctrl/⌘ + B`
+- **Position**: Use `Ctrl/⌘ + Arrow Keys` to move
+- **Opacity**: 
+  - Decrease: `Ctrl/⌘ + [`
+  - Increase: `Ctrl/⌘ + ]`
+- **Zoom**: 
+  - In: `Ctrl/⌘ + =`
+  - Out: `Ctrl/⌘ + -`
+  - Reset: `Ctrl/⌘ + 0`
 
-## Hotkeys
+### 3. AI Model Selection
+- Choose different models for:
+  - Problem Extraction
+  - Solution Generation
+  - Debugging
+- Access via Settings (gear icon)
+- Models can be changed anytime
 
-| Hotkey | Function |
-|--------|----------|
-| F1 | Capture screenshot of selected monitor |
-| F2 | Start/Stop voice recording |
-| F3 | Analyze selected text |
-| F4 | Switch to next available AI model |
-| F5 | Retry last analysis with additional context |
-| Page Up | Scroll chat history up |
-| Page Down | Scroll chat history down |
-| Delete | Cancel current analysis |
-| Home | Show/Hide chat history |
-| Insert | Toggle window position (left/right) |
-| End | Toggle Meeting Mode |
+### 4. Prompt Customization
+- Customize prompts for each stage:
+  - Problem extraction
+  - Solution generation
+  - Debugging
+- Reset to defaults anytime
+- Changes take effect immediately
 
-## Features
+## Common Use Cases
 
-### Window Management
-- Window size is automatically set to 1/2 of screen width
-- Press Insert key to toggle window position between left and right half of screen
-- Window remains on top of other applications for easy access
+### 1. During Coding Interviews
+1. Keep RemoteAngel invisible (`Ctrl/⌘ + B`)
+2. Take screenshots of the problem (`Ctrl/⌘ + H`)
+3. Process for analysis (`Ctrl/⌘ + Enter`)
+4. Review AI suggestions
+5. Hide window before sharing screen
 
-### Screenshot Analysis
-1. Press F1 to capture the current screen
-2. The screenshot will be processed and analyzed automatically
-3. Results will appear in the chat window
+### 2. Technical Presentations
+1. Position window where needed
+2. Adjust opacity for comfort
+3. Use hotkeys for quick access
+4. Toggle visibility as needed
 
-### Voice Recording
-1. Press F2 to start recording
-2. Speak clearly into your selected microphone
-3. Press F2 again to stop recording
-4. Your speech will be transcribed and analyzed automatically
+### 3. Debugging Sessions
+1. Screenshot your code and error messages
+2. Process for debugging help
+3. Apply suggested fixes
+4. Take new screenshots if needed
 
-### Text Analysis
-1. Select any text on your screen
-2. Press F3 to analyze the selected text
-3. Results will appear in the chat window
+## Tips & Best Practices
 
-### Model Switching
-- Press F4 to cycle through available AI models
-- Each model may provide different perspectives on the same content
-
-### Retry Analysis
-- Press F5 to retry the last analysis with additional context
-- Useful when you need more detailed or specific analysis
-
-## Tips for Best Results
-
-1. **Screenshots**
+1. **Screenshot Quality**
    - Ensure text is clear and readable
-   - Avoid capturing moving content
-   - Use high contrast when possible
+   - Include relevant error messages
+   - Capture complete code context
 
-2. **Voice Recording**
-   - Speak clearly and at a normal pace
-   - Minimize background noise
-   - Use a good quality microphone
+2. **Window Management**
+   - Find a comfortable opacity level
+   - Position window where it's easily accessible
+   - Use hotkeys instead of mouse when possible
 
-3. **Text Selection**
-   - Select complete sentences or paragraphs
-   - Avoid selecting partial words
-   - Include relevant context
+3. **Model Selection**
+   - Use o1 for faster responses
+   - Use o3-mini for more detailed analysis
+   - Experiment with different models for best results
+
+4. **Prompt Customization**
+   - Adjust prompts to match your needs
+   - Be specific about output format
+   - Save successful prompts for future use
 
 ## Troubleshooting
 
-If you encounter issues:
+1. **Window Disappeared**
+   - Press `Ctrl/⌘ + B` to toggle visibility
+   - Check if opacity is too low
+   - Try moving the window with arrow keys
 
-1. **No Response**
-   - Check your internet connection
-   - Verify your API keys are configured
-   - Try switching to a different AI model
+2. **Screenshots Not Working**
+   - Ensure proper permissions
+   - Try `Ctrl/⌘ + L` to clear queue
+   - Restart if issues persist
 
-2. **Audio Issues**
-   - Verify your microphone is selected and working
-   - Check system audio settings
-   - Try a different microphone if available
+3. **API Issues**
+   - Verify API key in settings
+   - Check internet connection
+   - Ensure sufficient API credits
 
-3. **Screenshot Problems**
-   - Ensure the correct monitor is selected
-   - Check if any applications are blocking screen capture
-   - Try capturing a different area of the screen
+## Privacy & Security
 
-## Support
+- Your API key is stored locally
+- Screenshots are processed locally
+- No data is sent to external servers except OpenAI API
+- Window is invisible to screen sharing tools
 
-For additional support or to report issues:
-- Check the application logs in the `remote_angel.log` file
-- Contact support through the official channels
+## Getting Help
 
-## Privacy Note
+If you encounter any issues:
+1. Check this documentation first
+2. Try restarting the application
+3. Clear the screenshot queue
+4. Verify your settings
 
-Remote Angel processes your content locally before sending it for analysis. No data is stored permanently on your system. Please review the privacy policy for more details. 
+Remember: RemoteAngel is designed to be invisible and undetectable. Always test the invisibility features before important presentations or interviews. 

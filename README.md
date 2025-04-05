@@ -94,6 +94,20 @@ RemoteAngel (http://remoteangel.xyz/) is your invisible AI assistant for coding 
    - Adjust prompts to match your needs
    - Be specific about output format
    - Save successful prompts for future use
+## Invisibility Compatibility
+
+The application is invisible to:
+
+- Zoom versions below 6.1.6 (inclusive)
+- All browser-based screen recording software
+- All versions of Discord
+- Mac OS _screenshot_ functionality (Command + Shift + 3/4)
+
+Note: The application is **NOT** invisible to:
+
+- Zoom versions 6.1.6 and above
+  - https://zoom.en.uptodown.com/mac/versions (link to downgrade Zoom if needed)
+- Mac OS native screen _recording_ (Command + Shift + 5)
 
 ## Troubleshooting
 

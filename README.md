@@ -103,7 +103,7 @@ The application is invisible to:
 - All versions of Discord
 - Mac OS _screenshot_ functionality (Command + Shift + 3/4)
 
-Note: The application is **NOT** invisible to:
+Note: The Windows application works with all versions of Zoom,  but Mac application is **NOT** invisible to:
 
 - Zoom versions 6.1.6 and above
   - https://zoom.en.uptodown.com/mac/versions (link to downgrade Zoom if needed)
